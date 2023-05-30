@@ -1,0 +1,27 @@
+.Market-Banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -47.5%;
+}
+
+.Slide {
+    margin-left: -5%;
+    height: 50%;
+    width: 100%;
+}
+
+.Post-Banner {
+    align-items: center;
+    background-color: #fea03c;
+    box-shadow: 0 1px 2px rgba(96,125,135,.15);
+    color: #fff;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 85px;
+    padding: 10px;
+    height: 160px;
+}
+

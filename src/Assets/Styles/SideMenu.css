@@ -1,0 +1,52 @@
+.Item-list {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    padding-top: 20px;
+}
+
+.Item-categories {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    width: 21%;
+    background: #fff;
+    box-shadow: 1px 1px 4px rgba(80,114,125,.4);
+}
+
+.List {
+    padding: 5px;
+}
+
+#Parent-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.List a {
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+}
+
+a:hover {
+    background-color: #f6f8fd;
+}
+
+
+
+
+
+
+
