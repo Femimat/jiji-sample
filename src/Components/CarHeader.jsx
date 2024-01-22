@@ -1,21 +1,25 @@
-import "../Assets/Styles/Header.css"
+import "../Assets/Styles/CarHeader.css"
 import Modal from "./Modal"
 import Modal2 from "./Modal2"
 import { useState } from "react"
 
-function Header() {
+export function CarHeader () {
 
     const [openModal, setOpenModal] = useState(false)
     const [openModal2, setOpenModal2] = useState(false)
 
     return (
-        <header className="App-header">
-            <div className="Header-container">
-                <div className="Jiji-icon">
-                    <a href="#" className="Icon">Jiji</a>
+        <header className="Appp">
+            <div className="Headerr-container">
+                <div className="Jiiji-icon">
+                    <a href="/" className="Iconn">Jiji</a>
                 </div>
 
-                <div className="Title-text">
+                <div>
+                    <input className="Baner-Search" type="text" placeholder="Type your search here"></input>
+                </div>
+
+                <div className="Titlle-text">
                     <p>SELL FASTER, BUY SMARTER</p>
                 </div>
 
@@ -29,13 +33,9 @@ function Header() {
                         <p onClick={() => setOpenModal(true)}>Registration</p>
                         <Modal open={openModal} onClose={() => setOpenModal(false)} />
                     </div>
-                    
-                    <button type="button" className="Btn">sell</button>
+                    <button type="button" className="Btnn">SELL</button>
                 </div>
             </div>
-        
         </header>
     )
 }
-
-export default Header;

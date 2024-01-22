@@ -3,6 +3,7 @@
     flex-direction: row;
     margin-left: 8%;
     padding-top: 20px;
+    
 }
 
 .Item-categories {
@@ -40,9 +41,11 @@
     color: gray;
 }
 
-a:hover {
+.List a:hover {
     background-color: #f6f8fd;
 }
+
+
 
 
 

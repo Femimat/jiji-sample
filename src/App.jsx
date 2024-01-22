@@ -3,8 +3,9 @@ import Banner from "./Components/Banner"
 import SideMenu from "./Components/SideMenu"
 import MarketingBanner from "./Components/MarketingBanner"
 import Table from "./Components/Table"
+import Footer from "./Components/Footer"
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <Header />
@@ -12,8 +13,7 @@ function App() {
       <SideMenu />
       <MarketingBanner />
       <Table />
+      <Footer />
     </div>
   );
 }
-
-export default App;

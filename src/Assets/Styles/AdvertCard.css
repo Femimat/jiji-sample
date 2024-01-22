@@ -1,0 +1,147 @@
+.Advert-Page {
+    width: 100%; 
+}
+
+.Img-Vech {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.Imgg {
+    height: 170px;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Imgg img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.Advert {
+    line-height: 50px;
+}
+
+.Advert-Title {
+    padding: 0px 20px;
+}
+
+.Advert-Title h1 {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(70, 75, 79);
+}
+
+.Advert-Title p {
+    font-size: 13px;
+    padding: 5px; 
+}
+
+.Icon-Info {
+    display: flex;
+    border-top: 1px solid #ebf2f7;
+    border-bottom: 1px solid #ebf2f7;
+    padding: 16px 0;
+    font-size: 19px;
+    color: rgb(70, 75, 79)
+}
+
+.Con-Info {
+    padding: 1px 20px; 
+} 
+
+.Advert-Wrapper {
+    display: flex;
+    justify-content: space-between; 
+    width: 60%;  
+}
+
+.Advert-Specs {
+    line-height: 20px;
+    padding: 10px 20px;
+}
+
+.Advert-Specs p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.Advert-Specs h4 {
+    font-size: 10px;
+    color: #6c8EA0;
+    text-transform: uppercase;
+}
+
+.Advert-List-Wraper {
+    line-height: 16px;
+    font-size: 14px;
+    color: #464b4f;
+    padding: 17px;
+    border-top: 1px solid #ebf2f7;
+}
+
+.List-Wraper {
+    max-width: 400px;
+}
+
+.List-Tag {
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 180px;   
+}
+
+.Desc-Text {
+    border-top: 1px solid #dfe1f0;
+    margin-bottom: 5px;
+    padding: 20px 17px 10px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #464b4f;
+}
+
+.Text {
+    margin-bottom: 20px;
+}
+
+.Card-Button {
+    display: flex;
+    justify-content: center;
+    background-color: #00b53f;
+    color: #fff;
+    border-radius: 5px;
+    width: 175px;
+    height: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Btton {
+    border-top: 1px solid #dfe1f0;
+    padding: 18px;   
+}
+
+.Content-Btt {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 210px;
+    border: 1px solid #00b53f;
+    color: #00b53f;
+    
+}
+
+.Btt {
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+
+

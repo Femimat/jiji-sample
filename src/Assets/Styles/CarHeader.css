@@ -1,0 +1,51 @@
+.Headerr-container {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+.Appp {
+    background: #00b53f;
+}
+
+.Jiiji-icon a {
+    text-decoration: none;
+}
+
+.Baner-Search {
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.Titlle-text {
+    color: #fff;
+    font-size: 16px;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+}
+
+.Iconn {
+    color: #fff;
+    font-size: 30px;
+}
+
+.Btnn {
+    color: #fff;
+    background-color: rgb(254, 160, 60);
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.Infoo a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px;
+}

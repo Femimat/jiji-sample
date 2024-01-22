@@ -138,8 +138,8 @@ function SideMenu() {
             <div className="Item-categories">
                 {items.map(item => {
                     return <MenuItem 
-                        menuLink=""
                         vehicleImage={item.vehicleImage}
+                        menuLink=""
                         alt={item.alt}
                         itemName={item.itemName}
                         addCount={item.addCount}

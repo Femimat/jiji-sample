@@ -1,0 +1,43 @@
+.Footer-Image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.Footer-Container {
+    background-color: #00b53f;
+}
+
+.Footer-Inner {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.Group {
+    padding-top: 15px;
+}
+
+.Footer-Group h3 {
+    color: #006304;
+    font-size: 14px;
+}
+
+.Footer-Group a {
+    color: aliceblue;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.Footer-Group a:hover {
+    background-color: #00b53f;
+}
+
+.Footer-Copyright h3 {
+    text-align: center;
+    color: #006304;
+    font-size: 14px;
+    padding: 25px 0px;
+}
+
+

@@ -5,13 +5,13 @@ import "../Assets/Styles/MarketingBanner.css"
 function MarketingBanner() {
     return (
         <div className="Market-Banner">
-            <div>
+            <div className="Slide-Image">
                 <img className="Slide" src={slideImage} alt="slider.png"/>
             </div>
 
             <div className="Post-Banner">
                 <h2>Got something to sell?</h2>
-                <h3>Post an advert for free!</h3>
+                <h3>Post an advert for free</h3>
             </div>
         </div>        
      )

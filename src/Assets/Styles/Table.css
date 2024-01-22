@@ -1,5 +1,43 @@
 .Flex-Wrap {
-    margin-left: -510px;
-    margin-top: -159px;
-    text-align: center;
+    margin: 12%;
+    margin-left: 29%;
+    margin-top: -10%;
+}
+
+.Flex-Wrap h3 {
+    color: #415661;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Table-Container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 6px;
+}
+
+.Table-List {
+    height: 200px;
+}
+
+.Card-List {
+    height: 76%;
+    width: 230px;
+    border-radius: 5px;
+}
+
+.Card-Info h4 {
+    color: #00b53f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.Card-Info h3 {
+    font-size: 14px;
+    font-weight: 400;  
+}
+
+.Table-List a {
+    text-decoration: none;
 }

@@ -1,0 +1,101 @@
+.Overlay {
+    height: 100%;
+    width: 110%;
+    position: fixed;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0, 0.8);
+} 
+
+.Modal-Container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 18px 0px rgb(0, 0, 0, 0.75);
+    padding-top: 50px;
+}
+
+.Form-Table {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Form-Table input {
+    width: 75%;
+    height: 25px;
+    padding: 10px;
+    border-radius: white 5px;
+}
+
+.Modal-Close p {
+    position: fixed;
+    top: 5px;
+    right: 0px;
+    color: rgb(166, 184, 189, 0.5);
+}
+
+.CheckBox-Container {
+    display: flex;
+    align-items: center;
+    padding-left: 53px;
+}
+
+.CheckBox-Container h2 {
+    font-size: 20px;
+    color: #28363e;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 0;
+    padding-left: 12px
+}
+
+.Check {
+    cursor: pointer;
+    border: 2px solid #6c8ea0;
+    border-radius: 2px;
+    box-sizing: content-box!important;
+    height: 30px;
+    width: 16px;
+}
+
+.Button-Container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Button-Container button {
+    cursor: pointer;
+    width: 81%;
+    padding: 10px;
+    background-color: rgba(0,181,63,.5);
+    border: none;
+    color: #ffffff;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.Pop-Title h2 {
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(70, 75, 79);
+}
+
+.Pop2 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(70, 75, 79);
+    margin-bottom: 20px;
+}
